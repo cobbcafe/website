@@ -8,9 +8,6 @@
 let canvas, gl, scene, renderer;
 let keys = { w: false, a: false, s: false, d: false };
 let boardObject = new THREE.Object3D();
-let whitePieces = new THREE.Object3D();
-let blackPieces = new THREE.Object3D();
-let invisibleSquares = new THREE.Object3D();
 let loadedObject;
 
 // Function to initialize the WebGL context and set up shaders
